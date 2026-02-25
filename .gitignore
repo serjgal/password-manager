@@ -1,0 +1,18 @@
+# Environments
+.venv/
+.env
+
+# IDE
+.idea/
+
+# Local data
+salt.bin
+vault.db
+master_key_verify.bin
+notes.txt
+*.log
+.DS_Store
+
+# Python cache
+__pycache__/
+.pytest_cache/

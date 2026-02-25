@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Secure PM Bridge",
+  "version": "1.0",
+  "description": "Connects your browser to the Secure CLI Password Manager.",
+  "permissions": [
+    "nativeMessaging",
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body { width: 300px; padding: 15px; font-family: sans-serif; }
+    input { width: 100%; margin-bottom: 10px; padding: 8px; box-sizing: border-box; }
+    button { width: 100%; padding: 10px; background-color: #4CAF50; color: white; border: none; cursor: pointer; }
+    button:hover { background-color: #45a049; }
+    #status { margin-top: 10px; font-size: 0.9em; word-wrap: break-word; }
+    .error { color: red; }
+    .success { color: green; }
+  </style>
+</head>
+<body>
+  <h3>Safety First PM</h3>
+  <input type="password" id="master" placeholder="Master Password">
+  <input type="text" id="service" placeholder="Service (e.g. github.com)">
+  <button id="get">Get Password & Autofill</button>
+  <div id="status"></div>
+  <script src="popup.js"></script>
+</body>
+</html>
